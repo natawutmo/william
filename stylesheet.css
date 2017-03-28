@@ -1,4 +1,4 @@
-.square {
+div.square {
 	height: 50px;
 	width: 50px;
 	border-radius: 10px;
@@ -6,9 +6,9 @@
 	position: relative;
 }
 
-.button {
+div.button {
 	height: 20px;
 	width: 100px;
-	background-color: gray;
-	float: left;
+	background-color: silver;
+	display: inline;
 }
