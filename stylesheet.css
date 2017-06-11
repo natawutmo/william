@@ -9,10 +9,58 @@ div.button {
 }
 
 div.cover {
-	min-width: 30px;
+	min-width: 35px;
 	display: inline-block;
 	border-radius: 5px;
 	cursor: pointer;
+}
+
+div.tile {
+	height: 120px;
+	width: 120px;
+	background-color: #FF3030;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 120px;
+	color: #FF3030;
+	margin: -2px;
+}
+
+div.roundtile {
+	height: 120px;
+	width: 120px;
+	background-color: #FF3030;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 120px;
+	color: #FF3030;
+	border-radius: 10px;
+}
+
+div.seltile {
+	background-color: white;
+	cursor: default;
+}
+
+.tiletext {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+p.hint {
+	border-radius: 5px;
+	width: 200px;
+	text-align: center;
+	height: 20px;
+}
+
+.long {
+	display: block;
+	word-wrap: break-word;
+	white-space: normal;
 }
 
 #ash {
@@ -25,4 +73,50 @@ div.cover {
 
 #brock {
 	background-color: gray;
+}
+
+#purplehint {
+	color: purple;
+}
+
+#redhint {
+	color: red;
+}
+
+#bluehint {
+	color: blue;
+}
+
+#blackhint {
+	color: black;
+}
+
+#greenhint {
+	color: green;
+}
+
+#ff0000hint {
+	color: #F00000;
+}
+
+#ff3030hint {
+	color: #FF3030;
+}
+
+#ff6060hint {
+	color: #FF6060;
+}
+
+#ff9090hint {
+	color: #FF9090;
+}
+
+#ffc0c0hint {
+	color: #FFC0C0;
+}
+
+#tiletext {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: normal;
 }

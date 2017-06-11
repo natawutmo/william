@@ -1,8 +1,8 @@
-$(document).ready(function() {
+$(document).ready(function () {
 	$('#mainbutton').click(function() {
 		var pw = $('input[name=maininput]').val();
-		if (pw === '9228') {
-			document.location.href = "puz1.html";
+		if (pw === '8839201') {
+			document.location.href = "fourthpuz.html";
 		}
 		else {
 			$('#prompt').html('Incorrect password!');
